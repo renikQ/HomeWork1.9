@@ -8,5 +8,10 @@ public class Main {
         System.out.println(moron.getBookName());
         aKarenina.setPublishingYear(2005);
         System.out.println(aKarenina.getPublishingYear());
+        System.out.println(warAndPeacePartOneTolstoy.equals(aKarenina));
+        System.out.println(moron);
+        System.out.println(dostoevsky);
+        System.out.println(dostoevsky.equals(tolstoy));
+
     }
 }
